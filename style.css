@@ -1,0 +1,67 @@
+
+
+main {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+body {
+	background-color: #C9C9C9;
+	margin: 0px;
+}
+
+
+header {
+	
+	padding: 0;
+	margin: 0;
+	/* border: 10px groove; */
+	border: 05px solid #908a99;
+	overflow: auto;
+
+	/* border-radius: 10px; */
+	
+	
+	/* background-position-x: left; */
+	
+	
+}
+
+
+.cabecalho {
+	background-color: #908a99;
+	padding-left: 100px;
+	display: flex;
+	justify-content: space-around;
+	font-family: impact;
+	background-image: url("logo.png");
+	background-size: 150px;
+	background-position: 10px 05px;
+	background-repeat: no-repeat;
+	/*height: 50px; */
+	
+	p{
+		border: 09px groove #cec9cc;
+		padding: 10px 20px;
+		margin: 0px;
+		color: black;
+		
+		
+	}
+	
+
+	
+	
+}
+
+
+
+.teste{
+	background-color: red;
+	margin-top: 50px;
+	height: 4000px;
+	width: 800px;
+
+	
+}
