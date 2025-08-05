@@ -52,18 +52,44 @@ header {
 		
 	}
 	
-
-	
-	
 }
 
 
 
-.teste{
-	background-color: red;
+.fundo{
+	background-color: #908a99;
 	margin-top: 50px;
-	height: 4000px;
-	width: 800px;
+	height: 1000px;
+	width: 1300px;
+	border-width: 15px;
+	border-style: groove;
 
+	
+
+	
+}
+
+.textos {
+	display: flex;
+	
+	.titulo1 {
+		height: 70px;
+		width: 650px;
+		font-family: match;
+		font-size: 70px;
+		padding-left: 20px;
+		margin-top: 20px;
+	}
+
+	.developer {
+		font-size: 30px;
+		left: 20px;
+		top: 50px;
+		position: relative;
+	}
+	
+	.bloco {
+		display: grid;
+	}
 	
 }
