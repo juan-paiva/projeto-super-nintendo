@@ -81,15 +81,57 @@ header {
 		margin-top: 20px;
 	}
 
-	.developer {
-		font-size: 30px;
-		left: 20px;
-		top: 50px;
-		position: relative;
+	.ranking {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-width: 10px;
+		border-radius: 100px;
+		border-color: white;
+		border-style: solid;
+		background-color: white;
+		/* text-decoration: underline; */
+		margin: 10px;
+		margin-left: 100px;
+		height: 180px;
+		width: 180px;
+		font-size: 100px;
 	}
+	
 	
 	.bloco {
 		display: grid;
+		
+		.developer {
+			font-family: "palatino linotype";
+			font-variant: small-caps;
+			margin: 0px;
+			margin-top: 50px;
+			font-size: 30px;
+		}
+		
+		.emp {
+			color: #4f43ae;
+			font-size: 25px;
+			margin: 0px;
+		}
+		
+		.released {
+			font-family: "palatino linotype";
+			font-variant: small-caps;
+			margin: 0px;
+			margin-top: 15px;
+			font-size: 30px;
+		}
+		
+		.ano {
+			
+			color: #4f43ae;
+			font-size: 25px;
+			margin: 0px;
+		}
+		
+		
 	}
 	
 }
