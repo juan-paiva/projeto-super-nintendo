@@ -9,7 +9,14 @@ main {
 body {
 	background-color: #C9C9C9;
 	margin: 0px;
-}
+	background-image:
+	url(imagens/top.jpeg);
+	background-repeat: no-repeat url("imagens/top.jpeg");
+	
+	
+		
+	
+	}
 
 
 header {
@@ -61,7 +68,7 @@ header {
 .teste{
 	background-color: red;
 	margin-top: 50px;
-	height: 2000px;
+	height: 2500px;
 	width: 700px;
 	
 	}
@@ -72,12 +79,16 @@ img{
 	}
 
 img{
-	li{
+	
 	width: 500px;
 	higher: 500px;
 	margin: 60px 60px;
 	}
 
-li{
-	background-color: white;
-	}
+p{
+	color: white;
+	margin: 50px;
+}
+strong{
+	font-family: cooper;
+}
