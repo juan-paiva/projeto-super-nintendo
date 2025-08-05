@@ -35,14 +35,16 @@ header {
 	display: flex;
 	justify-content: space-around;
 	font-family: impact;
-	background-image: url("logo.png");
+	background-image: url("imagens/logo.png");
 	background-size: 150px;
 	background-position: 10px 05px;
 	background-repeat: no-repeat;
 	/*height: 50px; */
 	
 	p{
-		border: 09px groove #cec9cc;
+		/* border: 09px groove #cec9cc; */
+		border-width: 09px;
+		border-style: groove;
 		padding: 10px 20px;
 		margin: 0px;
 		color: black;
@@ -58,7 +60,7 @@ header {
 
 
 .teste{
-	background-color: red;
+	background-color: #908a99;
 	margin-top: 50px;
 	height: 4000px;
 	width: 800px;
