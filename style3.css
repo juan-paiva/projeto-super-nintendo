@@ -1,4 +1,8 @@
-
+@font-face {
+	font-family: minhafonte;
+		src: url(upheavtt.ttf);
+		
+	}
 
 main {
 	display: flex;
@@ -74,8 +78,8 @@ header {
 	
 	.titulo1 {
 		height: 70px;
-		width: 650px;
-		font-family: match;
+		width: 700px;
+		font-family: minhafonte;
 		font-size: 70px;
 		padding-left: 20px;
 		margin-top: 20px;
@@ -87,15 +91,16 @@ header {
 		justify-content: center;
 		border-width: 10px;
 		border-radius: 100px;
-		border-color: white;
+		border-color: #b20215;
 		border-style: solid;
-		background-color: white;
-		/* text-decoration: underline; */
+		background-color: #b20215;
+		font-family: minhafonte;
 		margin: 10px;
 		margin-left: 100px;
 		height: 180px;
 		width: 180px;
-		font-size: 100px;
+		font-size: 120px;
+	
 	}
 	
 	
@@ -103,7 +108,7 @@ header {
 		display: grid;
 		
 		.developer {
-			font-family: "palatino linotype";
+			font-family: minhafonte;
 			font-variant: small-caps;
 			margin: 0px;
 			margin-top: 50px;
@@ -111,13 +116,14 @@ header {
 		}
 		
 		.emp {
+			font-family: minhafonte;
 			color: #4f43ae;
 			font-size: 25px;
 			margin: 0px;
 		}
 		
 		.released {
-			font-family: "palatino linotype";
+			font-family: minhafonte;
 			font-variant: small-caps;
 			margin: 0px;
 			margin-top: 15px;
@@ -125,7 +131,7 @@ header {
 		}
 		
 		.ano {
-			
+			font-family: minhafonte;
 			color: #4f43ae;
 			font-size: 25px;
 			margin: 0px;
@@ -133,5 +139,32 @@ header {
 		
 		
 	}
+	
+}
+
+
+
+	
+.conteudo {
+	
+	display: flex;
+	margin-top: 50px;
+	
+	p {
+		margin: 20px 20px;
+		font-family: minhafonte;
+		font-size: 25px;
+		
+		
+	}
+	
+}
+
+img {
+	width: 567px;
+	height: 399px;
+	border-width: 10px;
+	border-style: groove;
+	margin-left: 20px;
 	
 }
