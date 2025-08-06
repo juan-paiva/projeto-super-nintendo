@@ -68,27 +68,32 @@ header {
 .teste{
 	background-color: red;
 	margin-top: 50px;
-	height: 2500px;
+	height: 2700px;
 	width: 700px;
+	div{
+		display: flex;
+		}
 	
 	}
+	/*imagens*/
 img{
-	width: 500px;
-	higher: 500px;
+	width: 700px;
+	higher: 700px;
 	margin: 50px 50px;
 	}
 
 img{
 	
-	width: 500px;
-	higher: 500px;
-	margin: 60px 60px;
+	width: 600px;
+	higher: 600px;
+	margin: 50px 50px;
 	}
-
+    /* cor das texto*/
 p{
 	color: white;
 	margin: 50px;
 }
+    /* fonte das letras em stroung*/
 strong{
 	font-family: cooper;
 }

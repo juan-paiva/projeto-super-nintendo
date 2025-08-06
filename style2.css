@@ -49,7 +49,7 @@ header {
 		margin: 0px;
 		color: black;
 		
-		
+
 	}
 	
 
@@ -64,6 +64,10 @@ header {
 	margin-top: 50px;
 	height: 4000px;
 	width: 800px;
-
-	
 }
+img{
+	width: 245px;
+	higher: 50px;
+	margin: 25px 25px;
+}
+	
