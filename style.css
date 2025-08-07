@@ -9,8 +9,6 @@ main {
 body {
 	background-color: #C9C9C9;
 	margin: 0px;
-	background-image:
-	url(imagens/top.jpeg);
 	background-repeat: no-repeat url("imagens/top.jpeg");
 	
 	
