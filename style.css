@@ -68,7 +68,7 @@ header {
 .teste{
 	background-color: red;
 	margin-top: 50px;
-	height: 2700px;
+	height: 3000px;
 	width: 700px;
 	div{
 		display: flex;
@@ -83,8 +83,11 @@ img{
 	width: 600px;
 	higher: 600px;
 	margin: 50px 50px;
-	transform: translatey(-20px);
+	transform: translatey(-10px);
 	box-shadow: 0 8px 20px rgba( 0,0,0,0.3);
+	border-width: 09px;
+	border-style: groove;
+	
 	}
     /* cor das texto*/
 p{
