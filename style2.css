@@ -1,8 +1,12 @@
 
 
 main {
-	display: flex;
+
 	justify-content: space-around;
+	background-color: red;
+	height: 4000px;
+	width: 800px;
+	margin: auto;
 }
 
 
@@ -52,22 +56,95 @@ header {
 
 	}
 	
-
-	
-	
 }
 
 
 
-.teste{
-	background-color: red;
-	margin-top: 50px;
-	height: 4000px;
-	width: 800px;
-}
+
 img{
 	width: 245px;
 	higher: 50px;
 	margin: 25px 25px;
 }
-	
+h2{
+	font-family: cooper;
+	color: blue;
+}
+
+li{
+	font-family: cooper;
+	color: white;
+}
+
+sectio{
+	display; flex;
+}
+.mario {
+ display: flex;
+  flex-basis: 1;
+  flex-grow: 1;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-height: 50px;
+  video {
+  width: 45%;
+}
+}
+.zelda {
+  display: flex;
+  flex-basis: 1;
+  flex-grow: 1;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-height: 50px;
+}
+.Metroid{
+  display: flex;
+  flex-basis: 1;
+  flex-grow: 1;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-height: 50px;
+}
+.trigger{
+  display: flex;
+  flex-basis: 1;
+  flex-grow: 1;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-height: 50px;
+}
+.kong{
+  display: flex;
+  flex-basis: 1;
+  flex-grow: 1;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-height: 50px;
+}
+.Street{
+  display: flex;
+  flex-basis: 1;
+  flex-grow: 1;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-height: 50px;
+}
