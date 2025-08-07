@@ -75,18 +75,16 @@ header {
 		}
 	
 	}
-	/*imagens*/
-img{
-	width: 700px;
-	higher: 700px;
-	margin: 50px 50px;
-	}
+	/*imagens/Hover*/
 
+	
 img{
 	
 	width: 600px;
 	higher: 600px;
 	margin: 50px 50px;
+	transform: translatey(-20px);
+	box-shadow: 0 8px 20px rgba( 0,0,0,0.3);
 	}
     /* cor das texto*/
 p{
