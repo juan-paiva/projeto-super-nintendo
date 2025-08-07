@@ -5,8 +5,14 @@
 	}
 
 main {
-	display: flex;
+
 	justify-content: space-around;
+	background-color: #908a99;
+	margin:auto;
+	margin-top: 50px;
+	width: 1300px;
+	border-width: 15px;
+	border-style: groove;
 }
 
 
@@ -58,22 +64,21 @@ header {
 	
 }
 
+hr {
+	height:10px;
+}
 
 
-.fundo{
+
+.section{
 	background-color: #908a99;
 	margin-top: 50px;
-	height: 1000px;
 	width: 1300px;
 	border-width: 15px;
-	border-style: groove;
-
-	
-
 	
 }
 
-.textos {
+.bloco1 {
 	display: flex;
 	
 	.titulo1 {
@@ -83,6 +88,12 @@ header {
 		font-size: 70px;
 		padding-left: 20px;
 		margin-top: 20px;
+	}
+	
+	.img1 {
+		width: 70px;
+		height: 70px;
+		align-self: center;
 	}
 
 	.ranking {
@@ -103,54 +114,15 @@ header {
 	
 	}
 	
-	
-	.bloco {
-		display: grid;
-		
-		.developer {
-			font-family: minhafonte;
-			font-variant: small-caps;
-			margin: 0px;
-			margin-top: 50px;
-			font-size: 30px;
-		}
-		
-		.emp {
-			font-family: minhafonte;
-			color: #4f43ae;
-			font-size: 25px;
-			margin: 0px;
-		}
-		
-		.released {
-			font-family: minhafonte;
-			font-variant: small-caps;
-			margin: 0px;
-			margin-top: 15px;
-			font-size: 30px;
-		}
-		
-		.ano {
-			font-family: minhafonte;
-			color: #4f43ae;
-			font-size: 25px;
-			margin: 0px;
-		}
-		
-		
-	}
-	
 }
 
-
-
 	
-.conteudo {
+.bloco2 {
 	
 	display: flex;
-	margin-top: 50px;
+	margin-top: 20px;
 	
-	p {
+	.config {
 		margin: 20px 20px;
 		font-family: minhafonte;
 		font-size: 25px;
@@ -158,9 +130,13 @@ header {
 		
 	}
 	
+	li {
+		margin: 10px;
+	}
+	
 }
 
-img {
+.img2 {
 	width: 567px;
 	height: 399px;
 	border-width: 10px;
