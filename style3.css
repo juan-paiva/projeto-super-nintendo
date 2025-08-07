@@ -62,7 +62,7 @@ header {
 		
 	}
 	
-}
+}	
 
 hr {
 	height:10px;
@@ -106,8 +106,7 @@ hr {
 		border-style: solid;
 		background-color: #b20215;
 		font-family: minhafonte;
-		margin: 10px;
-		margin-left: 100px;
+		margin: 10px 50px;
 		height: 180px;
 		width: 180px;
 		font-size: 120px;
