@@ -68,6 +68,8 @@ header {
 	margin-top: 50px;
 	height: 3000px;
 	width: 700px;
+	border-width: 09px;
+	border-style: groove;
 	div{
 		display: flex;
 		}
