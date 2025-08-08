@@ -5,9 +5,9 @@
 	}
 
 main {
-
+	overflow: hidden;
 	justify-content: space-around;
-	background-color: #908a99;
+	background-color: red;
 	margin:auto;
 	margin-top: 50px;
 	width: 1300px;
@@ -58,6 +58,7 @@ header {
 		padding: 10px 20px;
 		margin: 0px;
 		color: black;
+		text-align: center;
 		
 		
 	}
@@ -71,7 +72,7 @@ hr {
 
 
 .section{
-	background-color: #908a99;
+	background-color: red;
 	margin-top: 50px;
 	width: 1300px;
 	border-width: 15px;
@@ -80,6 +81,7 @@ hr {
 
 .bloco1 {
 	display: flex;
+	margin: 10px 30px;
 	
 	.titulo1 {
 		height: 70px;
@@ -102,11 +104,11 @@ hr {
 		justify-content: center;
 		border-width: 10px;
 		border-radius: 100px;
-		border-color: #b20215;
+		border-color: #908a99;
 		border-style: solid;
-		background-color: #b20215;
+		background-color: #908a99;
 		font-family: minhafonte;
-		margin: 10px 50px;
+		margin: 10px 30px;
 		height: 180px;
 		width: 180px;
 		font-size: 120px;
@@ -122,6 +124,8 @@ hr {
 	margin-top: 20px;
 	
 	.config {
+		border-width: 10px;
+		border-style: groove;
 		margin: 20px 20px;
 		font-family: minhafonte;
 		font-size: 25px;
@@ -142,4 +146,20 @@ hr {
 	border-style: groove;
 	margin-left: 20px;
 	
+}
+
+video {
+	margin-left: 33%;
+	margin-right: 33%;
+	border-width: 10px;
+	border-style: groove;
+}
+
+h1 {
+	text-align: center;
+	width: 800px;
+	font-family: minhafonte;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 40px
 }
