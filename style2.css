@@ -4,9 +4,9 @@ main {
 
 	justify-content: space-around;
 	background-color: red;
-	height: 4000px;
 	width: 800px;
 	margin: auto;
+	overflow: hidden; /*espaço entre a borda*/
 }
 
 
@@ -67,6 +67,7 @@ img{
 	margin: 25px 25px;
 }
 h2{
+	text-align: center;
 	font-family: cooper;
 	color: blue;
 }
@@ -86,9 +87,13 @@ sectio{
   align-items: center;
   gap: 10px;
   list-style: none;
-  padding: 0;
-  margin: 0;
-  min-height: 50px;
+  padding: 20px;
+  margin: 20px;
+  min-height: 50px; 
+  border: 10px solid #ccc;
+  margin: 10px;
+  box-sizing: padding-box;
+  border-style: groove;
   video {
   width: 45%;
 }
@@ -100,9 +105,16 @@ sectio{
   align-items: center;
   gap: 10px;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 20px;
+  margin: 20px;
   min-height: 50px;
+  border: 10px solid #ccc;
+  margin: 10px;
+  box-sizing: padding-box;
+  border-style: groove;
+   video {
+  width: 45%;
+}
 }
 .Metroid{
   display: flex;
@@ -111,9 +123,16 @@ sectio{
   align-items: center;
   gap: 10px;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 20px;
+  margin: 20px;
   min-height: 50px;
+  border: 10px solid #ccc;
+  margin: 10px;
+  box-sizing: padding-box;
+  border-style: groove;
+   video {
+  width: 45%;
+}
 }
 .trigger{
   display: flex;
@@ -122,9 +141,16 @@ sectio{
   align-items: center;
   gap: 10px;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 20px;
+  margin: 20px;
   min-height: 50px;
+  border: 10px solid #ccc;
+  margin: 10px;
+  box-sizing: padding-box;
+  border-style: groove;
+   video {
+  width: 45%;
+}
 }
 .kong{
   display: flex;
@@ -133,9 +159,16 @@ sectio{
   align-items: center;
   gap: 10px;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 20px;
+  margin: 20px;
   min-height: 50px;
+  border: 10px solid #ccc;
+  margin: 10px;
+  box-sizing: padding-box;
+  border-style: groove;
+   video {
+  width: 45%;
+}
 }
 .Street{
   display: flex;
@@ -144,7 +177,15 @@ sectio{
   align-items: center;
   gap: 10px;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 20px;
+  margin: 20px;
   min-height: 50px;
+  border: 10px solid #ccc;
+  margin: 10px;
+  box-sizing: padding-box;
+  margin-bottom: 30px;
+  border-style: groove;
+   video {
+  width: 640px;
+}
 }
