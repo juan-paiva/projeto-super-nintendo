@@ -66,7 +66,7 @@ header {
 .teste{
 	background-color: red;
 	margin-top: 50px;
-	height: 3000px;
+	height: 3250px;
 	width: 700px;
 	border-width: 09px;
 	border-style: groove;
@@ -97,4 +97,9 @@ p{
     /* fonte das letras em stroung*/
 strong{
 	font-family: cooper;
+	
+}
+h3{
+	color: white;
+	margin-left: 50px;
 }
